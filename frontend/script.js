@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => {
     // --- CONFIGURATION ---
-    const backendUrl = 'http://localhost:3000'; // Change this to your live backend URL when you deploy
+    const backendUrl = 'https://jojo-todo.onrender.com'; // Change this to your live backend URL when you deploy
     const userId = 'publicUser123'; // In a real app with logins, this would be dynamic.
 
     // --- DOM Element Selection ---
