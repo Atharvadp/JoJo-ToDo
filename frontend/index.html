@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">JoJo's Bizarre Agenda</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <section class="theme-switcher">
+            <button class="theme-btn" data-theme="p3" title="Stardust Crusaders">III</button>
+            <button class="theme-btn" data-theme="p4" title="Diamond is Unbreakable">IV</button>
+            <button class="theme-btn" data-theme="p5" title="Golden Wind">V</button>
+            <button class="theme-btn" data-theme="p6" title="Stone Ocean">VI</button>
+            <button class="theme-btn" data-theme="p7" title="Steel Ball Run">VII</button>
+        </section>
+        <header>
+            <h1 id="main-title" class="main-title"></h1>
+            <div class="date-navigator">
+                <button id="prev-day" class="date-btn">＜</button>
+                <h2 id="current-date"></h2>
+                <button id="next-day" class="date-btn">＞</button>
+            </div>
+        </header>
+        <main>
+            <section class="card" id="todo-section">
+                <h3 id="todo-title"></h3>
+                <div class="input-area">
+                    <input type="text" id="task-input">
+                    <button id="add-task-btn"></button>
+                </div>
+                <ul id="task-list"></ul>
+            </section>
+            <section class="card" id="notes-section">
+                <h3 id="notes-title"></h3>
+                <textarea id="notes-area"></textarea>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
